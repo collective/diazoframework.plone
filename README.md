@@ -54,30 +54,33 @@ This is not your typical framework package
 ------------------------------------------
 This package is the parent of all frameworks and provides rules
 and resources that are practical to use in other frameworks as
-well as themes. It contains:
+well as themes. 
 
-- **classic**  
-  Provides the resources from *plonetheme.classic*.
-- **css**
-    - decogrids-12.css
-    - decogrids-16.css
-    - respond.css
-- **favicon**
-- **img**  
-  Plone icons and logo's to restructure *portal-logo*.
-- **js**
-    - respond.min.js
-- **rules**
-    - **head**
-    - **icon**
-    - **logo**
-    - **utility**
-    - content.xml
-- **sunburst**  
-  Provides the resources from *plonetheme.sunburst*.
-- **index.html**  
-  An empty html file to fill. It contains a `<html>`, `<head>`, `<title>` 
-  and `<body>`, nothing more
+**resources**
+
+`    classic`
+`    `*Provides the resources from *plonetheme.classic*.*
+`    css`
+`        decogrids-12.css`
+`        decogrids-16.css`
+`        respond.css`
+`    favicon`
+`    img`  
+`    `*Plone icons and logo's to restructure *portal-logo*.*
+`    js`
+`        respond.min.js`
+`    rules`
+`        head`
+`        icon`
+`        logo`
+`        utility`
+`        content.xml`
+`    sunburst`
+`    `Provides the resources from *plonetheme.sunburst*.
+`    index.html`
+`    `An empty html file to fill. 
+`    `It contains a `<html>`, `<head>`, `<title>` and `<body>`,
+`    `nothing more.
 
 Examples of typical frameworks and themes
 -----------------------------------------
