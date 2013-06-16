@@ -18,7 +18,7 @@ setup(name='diazoframework.plone',
       url='https://github.com/TH-code',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['diazo'],
+      namespace_packages=['diazoframework'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
