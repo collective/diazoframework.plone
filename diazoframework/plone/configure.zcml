@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+  <five:registerPackage package="." />
+
+  <adapter
+    name="framework"
+    for="* zope.publisher.interfaces.IRequest"
+    provides="zope.traversing.interfaces.ITraversable"
+    factory="diazoframework.plone.FrameworkTraverser"/>
+
+  <plone:static directory="framework" name="plone" type="framework"/>
+
+</configure>

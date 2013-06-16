@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://namespaces.plone.org/diazo"
+         xmlns:css="http://namespaces.plone.org/diazo/css"
+         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+         xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <!-- Attributes -->
+  <copy attributes="*" theme="/html" content="/html"/>
+
+  <!-- Base tag -->
+  <before theme="/html/head/title" content="/html/head/base"/>
+
+  <!-- Title -->
+  <replace theme="/html/head/title" content="/html/head/title" />
+
+  <!-- Pull in Plone Meta -->
+  <after theme="/html/head/title" 
+         content="/html/head/meta[@name='description' or @name='keywords' or starts-with(@name, 'DC.')]" />
+
+  <after theme="/html/head/title">
+    <style>
+        .hiddenStructure {
+            background: none repeat scroll 0 0 transparent;
+            border: medium none;
+            display: block;
+            height: 0.1em;
+            margin: -0.1em 0 0 -0.1em;
+            overflow: hidden;
+            padding: 0;
+            width: 1px;
+        }
+        .visualClear {
+            clear: both;
+        }
+        dd[class], .searchResults dd { margin-left: 0;}
+    </style>
+  </after>
+
+</rules>
