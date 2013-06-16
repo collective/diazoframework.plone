@@ -12,6 +12,7 @@ A framework package is set up as follows:
 
     _ diazoframework.name
       I tend to use paster to create the package scaffolding.
+      
       _ diazoframework
         _ name
           _ framework  
