@@ -10,21 +10,23 @@ How to setup a Diazo Framework
 ------------------------------
 A framework package is set up as follows:
 
-**diazoframework.name**  
-I tend to use paster to create the package scaffolding.
-- **diazoframework**
-    - **name**
-        - **framework**  
-          This folder is registered through configure.zcml
-          as the framework and will be traversable through 
-          /++framework++name.
-            - **resources**  
+    _ diazoframework.name
+      I tend to use paster to create the package scaffolding.
+      _ diazoframework
+        _ name
+          _ framework  
+            This folder is registered through configure.zcml
+            as the framework and will be traversable through 
+            /++framework++name.
+              
+            _ resources  
               The resources are the files you get in the framework
               zip you download. In my opinion it is best to change
               as little as possible for future upgrading of 
               the files. All changes you make here you will also 
               have to make in future versions of the framework.
-            - **rules**  
+              
+            _ rules
               CSS frameworks generally work by delivering styles
               and functionality for specific html structures.  
               The rules folder contains diazo rule snippets, that 
@@ -34,21 +36,24 @@ I tend to use paster to create the package scaffolding.
               and remold the html in a generic way.  
               The rules files can be included through XIncludes 
               into a diazotheme.
-            - **preview.png**  
+               
+            _ preview.png
               I like to provide a generic thumbnail for the theme
               panel.
-        - **__init__.py**
-        - **configure.zcml**
-        - **version.txt**
-    - **__init__.py**
-- **docs**
-    - **HISTORY.txt**
-    - **INSTALL.txt**
-    - **LICENSE.GPL**
-    - **LICENSE.txt**
-- **MANIFEST.in**
-- **README.md**
-- **setup.py**
+                
+        _ __init__.py
+        _ configure.zcml
+        _ version.txt
+      _ __init__.py
+    _ docs
+      _ HISTORY.txt
+      _ INSTALL.txt
+      _ LICENSE.GPL
+      _ LICENSE.txt
+      
+    _ MANIFEST.in 
+    _ README.md 
+    _ setup.py
 
 This is not your typical framework package
 ------------------------------------------
