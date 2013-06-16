@@ -91,7 +91,7 @@ with
 You can then see the power of childthemes at work in 
 [diazotheme.bootswatch](https://github.com/TH-code/diazotheme.bootswatch).
 
-*** Current frameworks
+### Current frameworks
 
 - [diazoframework.amazium](https://github.com/TH-code/diazoframework.amazium)
 - [diazoframework.baseline](https://github.com/TH-code/diazoframework.baseline)
@@ -102,7 +102,7 @@ You can then see the power of childthemes at work in
 - [diazoframework.purecss](https://github.com/TH-code/diazoframework.purecss)
 - [diazoframework.skeleton](https://github.com/TH-code/diazoframework.skeleton)
 
-*** Current themes
+### Current themes
 
 - [diazotheme.amazium](https://github.com/TH-code/diazotheme.amazium)
 - [diazotheme.baseline](https://github.com/TH-code/diazotheme.baseline)
