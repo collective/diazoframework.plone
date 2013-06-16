@@ -76,8 +76,8 @@ well as themes. It contains:
 - **sunburst**  
   Provides the resources from *plonetheme.sunburst*.
 - **index.html**  
-  An empty html file to fill. It contains a <html>, <head>, <title> 
-  and <body>, nothing more
+  An empty html file to fill. It contains a `<html>`, `<head>`, `<title>` 
+  and `<body>`, nothing more
 
 For a typical diazoframework check [diazoframework.amazium](https://github.com/TH-code/diazoframework.amazium)
 
