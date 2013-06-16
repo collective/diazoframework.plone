@@ -75,10 +75,85 @@ well as themes.
       
     _ rules
       _ head
+        _ base.xml
+        _ css.xml
+        _ icons.xml
+        _ ie-classes.xml
+        _ js.xml
+        
       _ icon
+        _ black-128.xml
+        _ black-192.xml
+        _ black-256.xml
+        _ black-32.xml
+        _ black-40.xml
+        _ black-48.xml
+        _ black-56.xml
+        _ black-64.xml
+        _ blue-128.xml
+        _ blue-192.xml
+        _ blue-256.xml
+        _ blue-32.xml
+        _ blue-40.xml
+        _ blue-48.xml
+        _ blue-56.xml
+        _ blue-64.xml
+        _ default-128.xml
+        _ default-192.xml
+        _ default-256.xml
+        _ default-32.xml
+        _ default-40.xml
+        _ default-48.xml
+        _ default-56.xml
+        _ default-64.xml
+        _ white-128.xml
+        _ white-192.xml
+        _ white-256.xml
+        _ white-32.xml
+        _ white-40.xml
+        _ white-48.xml
+        _ white-56.xml
+        _ white-64.xml
+        
       _ logo
+        _ black-128.xml
+        _ black-192.xml
+        _ black-256.xml
+        _ black-32.xml
+        _ black-40.xml
+        _ black-48.xml
+        _ black-56.xml
+        _ black-64.xml
+        _ blue-128.xml
+        _ blue-192.xml
+        _ blue-256.xml
+        _ blue-32.xml
+        _ blue-40.xml
+        _ blue-48.xml
+        _ blue-56.xml
+        _ blue-64.xml
+        _ default-128.xml
+        _ default-192.xml
+        _ default-256.xml
+        _ default-32.xml
+        _ default-40.xml
+        _ default-48.xml
+        _ default-56.xml
+        _ default-64.xml
+        _ white-128.xml
+        _ white-192.xml
+        _ white-256.xml
+        _ white-32.xml
+        _ white-40.xml
+        _ white-48.xml
+        _ white-56.xml
+        _ white-64.xml
+        
       _ utility
-      _ content.xml
+        _ clean.xml
+        _ responsify.xml
+        _ structures.xml
+        _ toolbar.xml
       
     _ sunburst
       Provides the resources from *plonetheme.sunburst*.
