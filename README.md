@@ -68,10 +68,10 @@ well as themes. It contains:
 - **js**
     - respond.min.js
 - **rules**
-    - head
-    - icon
-    - logo
-    - utility
+    - **head**
+    - **icon**
+    - **logo**
+    - **utility**
     - content.xml
 - **sunburst**  
   Provides the resources from *plonetheme.sunburst*.
