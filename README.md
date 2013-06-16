@@ -58,29 +58,35 @@ well as themes.
 
 **resources**
 
-`    classic`
-`    `*Provides the resources from *plonetheme.classic*.*
-`    css`
-`        decogrids-12.css`
-`        decogrids-16.css`
-`        respond.css`
-`    favicon`
-`    img`  
-`    `*Plone icons and logo's to restructure *portal-logo*.*
-`    js`
-`        respond.min.js`
-`    rules`
-`        head`
-`        icon`
-`        logo`
-`        utility`
-`        content.xml`
-`    sunburst`
-`    `Provides the resources from *plonetheme.sunburst*.
-`    index.html`
-`    `An empty html file to fill. 
-`    `It contains a `<html>`, `<head>`, `<title>` and `<body>`,
-`    `nothing more.
+    _ classic
+      Provides the resources from *plonetheme.classic*.
+      
+    _ css
+      _ decogrids-12.css
+      _ decogrids-16.css
+      _ respond.css
+      
+    _ favicon
+    _ img
+      Plone icons and logo's to restructure *portal-logo*.
+      
+    _ js
+      _ respond.min.js
+      
+    _ rules
+      _ head
+      _ icon
+      _ logo
+      _ utility
+      _ content.xml
+      
+    _ sunburst
+      Provides the resources from *plonetheme.sunburst*.
+      
+    _ index.html
+      An empty html file to fill. It contains a 
+      `<html>`, `<head>`, `<title>` and `<body>`,
+      nothing more.
 
 Examples of typical frameworks and themes
 -----------------------------------------
