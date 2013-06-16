@@ -79,8 +79,10 @@ well as themes. It contains:
   An empty html file to fill. It contains a `<html>`, `<head>`, `<title>` 
   and `<body>`, nothing more
 
-For a typical diazoframework check [diazoframework.amazium](https://github.com/TH-code/diazoframework.amazium)
-For a typical diazotheme  check [diazotheme.amazium](https://github.com/TH-code/diazotheme.amazium)
+Examples of typical frameworks and themes
+-----------------------------------------
+For a typical diazoframework check [diazoframework.amazium](https://github.com/TH-code/diazoframework.amazium),
+with typical diazotheme [diazotheme.amazium](https://github.com/TH-code/diazotheme.amazium)
 
 A theme that leans towards the complex is 
 [diazoframework.bootstrap](https://github.com/TH-code/diazoframework.bootstrap) 
@@ -89,8 +91,8 @@ with
 You can then see the power of childthemes at work in 
 [diazotheme.bootswatch](https://github.com/TH-code/diazotheme.bootswatch).
 
-Current frameworks
-------------------
+*** Current frameworks
+
 - [diazoframework.amazium](https://github.com/TH-code/diazoframework.amazium)
 - [diazoframework.baseline](https://github.com/TH-code/diazoframework.baseline)
 - [diazoframework.bootstrap](https://github.com/TH-code/diazoframework.bootstrap)
@@ -100,8 +102,8 @@ Current frameworks
 - [diazoframework.purecss](https://github.com/TH-code/diazoframework.purecss)
 - [diazoframework.skeleton](https://github.com/TH-code/diazoframework.skeleton)
 
-Current themes
---------------
+*** Current themes
+
 - [diazotheme.amazium](https://github.com/TH-code/diazotheme.amazium)
 - [diazotheme.baseline](https://github.com/TH-code/diazotheme.baseline)
 - [diazotheme.bootstrap](https://github.com/TH-code/diazotheme.bootstrap)
