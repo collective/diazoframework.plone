@@ -80,6 +80,14 @@ well as themes. It contains:
   and `<body>`, nothing more
 
 For a typical diazoframework check [diazoframework.amazium](https://github.com/TH-code/diazoframework.amazium)
+For a typical diazotheme  check [diazotheme.amazium](https://github.com/TH-code/diazotheme.amazium)
+
+A theme that leans towards the complex is 
+[diazoframework.bootstrap](https://github.com/TH-code/diazoframework.bootstrap) 
+with 
+[diazotheme.bootstrap](https://github.com/TH-code/diazotheme.bootstrap). 
+You can then see the power of childthemes at work in 
+[diazotheme.bootswatch](https://github.com/TH-code/diazotheme.bootswatch).
 
 Current frameworks
 ------------------
