@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://namespaces.plone.org/diazo"
+       xmlns:css="http://namespaces.plone.org/diazo/css"
+       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+       xmlns:xi="http://www.w3.org/2001/XInclude">
+
+       <!-- ONLY TO BE USED WITH THE BODY LAYOUT OF SUNBURST/INDEX.HTML -->
+       <!-- Attributes -->
+       <copy attributes="*" css:theme="body" css:content="body"/>
+
+       <!-- Change the logo in content and the copy the portal-top children -->
+       <replace css:content="#portal-logo > img">
+         <img>
+           <xsl:attribute name="src">/++framework++plone/sunburst/img/logo.png</xsl:attribute>
+           <xsl:attribute name="width">215</xsl:attribute>
+           <xsl:attribute name="height">56</xsl:attribute>
+           <xsl:attribute name="title">
+             <xsl:value-of select="./@title"/>
+           </xsl:attribute>
+           <xsl:attribute name="alt">
+             <xsl:value-of select="./@alt"/>
+           </xsl:attribute>
+         </img>
+       </replace>
+       <copy css:theme="#portal-top > .cell" css:content-children="#portal-top"/>
+
+       <!-- Change the layout table tbody into sunburst deco cells and then
+            copy them over into the theme portal-columns div. -->
+       <rules if-content="//*[@id='portal-column-one'] and //*[@id='portal-column-two']">
+         <copy css:theme="#portal-columns">
+           <div id="portal-column-content" class="cell width-1:2 position-1:4">
+             <xsl:apply-templates css:select="#portal-column-content > *" />
+           </div>
+           <div id="portal-column-one" class="cell width-1:4 position-0">
+             <xsl:apply-templates css:select="#portal-column-one > *" />
+           </div>
+           <div id="portal-column-two" class="cell width-1:4 position-3:4">
+             <xsl:apply-templates css:select="#portal-column-two > *" />
+           </div>
+         </copy>
+       </rules>
+       <rules if-content="//*[@id='portal-column-one'] and not(//*[@id='portal-column-two'])">
+         <copy css:theme="#portal-columns">
+           <div id="portal-column-content" class="cell width-3:4 position-1:4">
+             <xsl:apply-templates css:select="#portal-column-content > *" />
+           </div>
+           <div id="portal-column-one" class="cell width-1:4 position-0">
+             <xsl:apply-templates css:select="#portal-column-one > *" />
+           </div>
+         </copy>
+       </rules>
+       <rules if-content="not(//*[@id='portal-column-one']) and //*[@id='portal-column-two']">
+         <copy css:theme="#portal-columns">
+           <div id="portal-column-content" class="cell width-3:4 position-0">
+             <xsl:apply-templates css:select="#portal-column-content > *" />
+           </div>
+           <div id="portal-column-two" class="cell width-1:4 position-3:4">
+             <xsl:apply-templates css:select="#portal-column-two > *" />
+           </div>
+         </copy>
+       </rules>
+       <rules if-content="not(//*[@id='portal-column-one']) and not(//*[@id='portal-column-two'])">
+         <copy css:theme="#portal-columns">
+           <div id="portal-column-content" class="cell width-full position-0">
+             <xsl:apply-templates css:select="#portal-column-content > *" />
+           </div>
+         </copy>
+       </rules>
+
+       <after css:theme-children="#portal-footer-wrapper > .cell" css:content="#portal-footer"/>
+       <after css:theme-children="#portal-footer-wrapper > .cell" css:content="#portal-colophon"/>
+       <after css:theme-children="#portal-footer-wrapper > .cell" css:content="#portal-siteactions"/>
+       <after css:theme-children="#portal-footer-wrapper > .cell" css:content="#visual-portal-wrapper > script"/>
+       <after css:theme-children="#portal-footer-wrapper > .cell" css:content="#spinner"/>
+
+</rules>
