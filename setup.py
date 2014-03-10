@@ -23,6 +23,7 @@ setup(name='diazoframework.plone',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.theming',
       ],
       entry_points="""
       [z3c.autoinclude.plugin]
