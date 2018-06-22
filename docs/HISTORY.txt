@@ -4,6 +4,9 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Added more strings classifiers items for the metadata package
+  [macagua]
+
 - Added improvements about README file
   [macagua]
 
