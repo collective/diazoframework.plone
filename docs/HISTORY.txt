@@ -4,4 +4,7 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Added improvements about README file
+  [macagua]
+
 - Initial release

@@ -6,7 +6,7 @@ version = '1.0'
 setup(name='diazoframework.plone',
       version=version,
       description="",
-      long_description=open("README.md").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
         "Framework :: Plone",
