@@ -15,7 +15,7 @@ textarea {
   border: 1px solid #dddddd;
   border-color: #666666 #dddddd #dddddd #666666;
   color: black;
-  background: white url("/input_background.png") repeat-x;
+  background: white url("/++framework++plone/classic/img/input_background.png") repeat-x;
   width: 100%;
 }
 
@@ -26,7 +26,7 @@ input {
   border-color: #666666 #dddddd #dddddd #666666;
   color: black;
   vertical-align: middle;
-  background: white url("/input_background.png") repeat-x;
+  background: white url("/++framework++plone/classic/img/input_background.png") repeat-x;
   font-size: 1em;
 }
 
@@ -159,7 +159,7 @@ input.searchButton {
   margin-bottom: 1px !important;
   color: black;
   font-size: 90%;
-  background: white url("/search_icon.png") 2px 1px no-repeat;
+  background: white url("/++framework++plone/classic/img/search_icon.png") 2px 1px no-repeat;
   cursor: pointer;
   padding: 1px 1px 1px 19px;
   text-transform: none;
