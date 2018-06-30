@@ -4,8 +4,8 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
-- Fixed some NotFound 404 errors for images from css resoruces 
-  into Diazo Framework Classic theme.
+- Fixed some NotFound 404 errors for images from css resources 
+  into Diazo Framework Classic theme
   [macagua]
 
 - Added more strings classifiers items for the metadata package
