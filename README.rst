@@ -116,8 +116,8 @@ Or, you can add it as a dependency on your own product ``setup.py`` file: ::
     ],
 
 
-Skeleton Resources
-==================
+Resources
+=========
 
 The resources of this framework can be reached through 
 ``/++framework++plone`` and there are placed at 
@@ -306,7 +306,6 @@ Amazing contributions
 
 You can find an updated list of package contributors on https://github.com/TH-code/diazoframework.plone/contributors
 
-.. _`Skeleton CSS framework`: http://www.skeleton.co.uk/
 .. _`diazoframework.plone`: https://github.com/TH-code/diazoframework.plone#current-frameworks
 .. _`Diazo`: http://diazo.org
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
