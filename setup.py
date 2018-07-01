@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='diazoframework.plone',
       version=version,
-      description="A Diazo framework implementation for the Skeleton CSS framework",
+      description="A Diazo framework implementation for Plone Defaults Themes",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
@@ -31,6 +31,7 @@ setup(name='diazoframework.plone',
       keywords='web zope plone theme diazo css framework',
       author='Thijs Jonkman',
       author_email='t.jonkman@gmail.com',
+      maintainer='Leonardo Caballero',
       maintainer_email='leonardocaballero@gmail.com',
       url='https://github.com/TH-code/diazoframework.plone',
       license='GPL',
