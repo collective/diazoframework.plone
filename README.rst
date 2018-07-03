@@ -73,7 +73,7 @@ Requirements
 ============
 
 - From the Plone 4.1.x To the Plone 4.3 latest version (https://plone.org/download)
-- The ``plone.app.theming`` package (*will be installed as a dependency of this package*)
+- The ``plone.app.theming`` package (*You will need enable it to use this package*)
 
 
 Features
