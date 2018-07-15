@@ -4,12 +4,6 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
-
-1.0 (2014-09-28)
-----------------
-
 - Fixed some CSS declaratives from the Diazo Framework Classic theme
   [macagua]
 
@@ -22,5 +16,9 @@ Changelog
 
 - Added improvements about README file
   [macagua]
+
+
+1.0 (2014-09-28)
+----------------
 
 - Initial release
