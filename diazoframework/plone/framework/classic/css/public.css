@@ -321,7 +321,7 @@ form.searchPage h1.documentFirstHeading .highlightedSearchTerm {
 }
 
 .LSResult {
-  position: relative;
+  /*position: relative;*/
   display: block;
   text-align: right;
   padding-top: 5px;
