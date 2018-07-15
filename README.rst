@@ -135,7 +135,11 @@ well as themes
 ::
 
     _ classic
-      Provides the resources from *plonetheme.classic*.
+      Provides the resources from "plonetheme.classic".
+        _ css
+        _ img
+        _ index.html
+        _ preview.png
       
     _ css
       _ decogrids-12.css
@@ -144,7 +148,11 @@ well as themes
       
     _ favicon
     _ img
-      Plone icons and logo's to restructure *portal-logo*.
+      Plone icons and logo's to restructure "portal-logo".
+        _ background
+        _ black
+        _ default
+        _ white
       
     _ js
       _ respond.min.js
@@ -235,7 +243,7 @@ well as themes
       
       
     _ sunburst
-      Provides the resources from *plonetheme.sunburst*.
+      Provides the resources from "plonetheme.sunburst".
       
     _ index.html
       An empty html file to fill. It contains a 
@@ -250,18 +258,18 @@ For a typical diazoframework check `diazoframework.amazium <https://github.com/T
 with typical diazotheme `diazotheme.amazium <https://github.com/TH-code/diazotheme.amazium>`_
 
 A theme that leans towards the complex is 
-`diazoframework.bootstrap <https://github.com/TH-code/diazoframework.bootstrap>`_ 
+`diazoframework.bootstrap <https://github.com/collective/diazoframework.bootstrap>`_ 
 with 
 `diazotheme.bootstrap <https://github.com/TH-code/diazotheme.bootstrap>`_. 
 You can then see the power of childthemes at work in 
-`diazotheme.bootswatch <https://github.com/TH-code/diazotheme.bootswatch>`_.
+`diazotheme.bootswatch <https://github.com/collective/diazotheme.bootswatch>`_.
 
 Current frameworks
 ------------------
 
 - `diazoframework.amazium <https://github.com/TH-code/diazoframework.amazium>`_
 - `diazoframework.baseline <https://github.com/TH-code/diazoframework.baseline>`_
-- `diazoframework.bootstrap <https://github.com/TH-code/diazoframework.bootstrap>`_
+- `diazoframework.bootstrap <https://github.com/collective/diazoframework.bootstrap>`_
 - `diazoframework.foundation <https://github.com/TH-code/diazoframework.foundation>`_
 - `diazoframework.goldilocks <https://github.com/TH-code/diazoframework.goldilocks>`_
 - `diazoframework.kube <https://github.com/TH-code/diazoframework.kube>`_
@@ -274,11 +282,11 @@ Current themes
 - `diazotheme.amazium <https://github.com/TH-code/diazotheme.amazium>`_
 - `diazotheme.baseline <https://github.com/TH-code/diazotheme.baseline>`_
 - `diazotheme.bootstrap <https://github.com/TH-code/diazotheme.bootstrap>`_
-- `diazotheme.bootswatch <https://github.com/TH-code/diazotheme.bootswatch>`_
+- `diazotheme.bootswatch <https://github.com/collective/diazotheme.bootswatch>`_
 - `diazotheme.foundation <https://github.com/TH-code/diazotheme.foundation>`_
 - `diazotheme.goldilocks <https://github.com/TH-code/diazotheme.goldilocks>`_
 - `diazotheme.kube <https://github.com/TH-code/diazotheme.kube>`_
-- `diazotheme.plone <https://github.com/TH-code/diazotheme.plone>`_
+- `diazotheme.plone <https://github.com/collective/diazotheme.plone>`_
 - `diazotheme.purecss <https://github.com/TH-code/diazotheme.purecss>`_
 - `diazotheme.skeleton <https://github.com/TH-code/diazotheme.skeleton>`_
 
@@ -286,8 +294,8 @@ Current themes
 Contribute
 ==========
 
-- Issue Tracker: https://github.com/TH-code/diazoframework.plone/issues
-- Source Code: https://github.com/TH-code/diazoframework.plone
+- Issue Tracker: https://github.com/collective/diazoframework.plone/issues
+- Source Code: https://github.com/collective/diazoframework.plone
 
 
 License
@@ -307,8 +315,8 @@ Amazing contributions
 
 - Leonardo J. Caballero G. aka macagua (leonardocaballero at gmail dot com).
 
-You can find an updated list of package contributors on https://github.com/TH-code/diazoframework.plone/contributors
+You can find an updated list of package contributors on https://github.com/collective/diazoframework.plone/contributors
 
-.. _`diazoframework.plone`: https://github.com/TH-code/diazoframework.plone#current-frameworks
+.. _`diazoframework.plone`: https://github.com/collective/diazoframework.plone#current-frameworks
 .. _`Diazo`: http://diazo.org
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
