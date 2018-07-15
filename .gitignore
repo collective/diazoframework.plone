@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-*.egg-info
-*.mo
-*.pyc
-=======
 *~
 *.pyc
 *.pyo
@@ -41,4 +36,3 @@ var/
 
 # OSX
 .DS_Store
->>>>>>> plone-ve/master
