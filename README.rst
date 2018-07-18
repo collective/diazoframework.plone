@@ -241,7 +241,6 @@ well as themes
       _ content.xml
       _ contenttodecocells.xml (only to be used with the body layout of ../sunburst/index.html)  
       
-      
     _ sunburst
       Provides the resources from "plonetheme.sunburst".
       
