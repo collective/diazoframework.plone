@@ -8,7 +8,7 @@ Introduction
 
 ``diazoframework.plone`` package is the base for creating CSS frameworks 
 (e.g. Twitter Bootstrap, Zurb Foundation, etc.) using the **theming** and 
-**packaging** features available for create Diazo_ theme using `plone.app.theming`_. 
+**packaging** features available for create `Diazo`_ theme using `plone.app.theming`_. 
 
 They are useful for creating themes based on CSS frameworks. A Diazo framework 
 should provide the framework resources and diazo rules to reuse and add to in 
